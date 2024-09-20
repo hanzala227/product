@@ -32,7 +32,7 @@ var mm= gsap.matchMedia()
 
 mm.add("(max-width:800px)",()=>{
     gsap.to(".product h4",{
-        fontSize:"2.7rem",
+        fontSize:"2rem",
         opacity:.7,
         scrollTrigger:{
             trigger:".product",
